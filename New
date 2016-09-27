@@ -2,7 +2,7 @@ public class job implements Runnable{
     private int jobNumber;
     
     job (int jobNumber){
-        this jobNumber = jobNumber;
+        this.jobNumber = jobNumber;
     }
     
     public void run(){
